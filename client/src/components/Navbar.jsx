@@ -21,7 +21,7 @@ const Navbar = ({ isMatched, timeup, formatTime, time }) => {
             />
           </svg>
           <div className="text-white self-center text-xl font-semibold whitespace-nowrap">
-            CP Buddy
+            CODE RIVALS
           </div>
         </div>
       </Link>
