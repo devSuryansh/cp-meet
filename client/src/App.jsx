@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import { Navbar } from "@/components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-const socket = io("https://cp-buddy-4ngv.onrender.com");
+const socket = io("https://cp-buddy-backend.onrender.com");
 import { toast, ToastContainer } from "react-toastify";
 import { Home } from "@/pages";
 
